@@ -1,0 +1,32 @@
+databaseChangeLog: 
+    - include :
+        file: classpath:/db/changelog/sql/2017-06-29_esquema_database.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-07-12_tabla_lista_catalogo.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-07-20_cambio_referencia_fuentehidrica.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-08-02_cambio_tipo_variable.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-08-10_cambio_columnas_contratoasignacion.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-08-10_cambio_columnas_administradorcontrato.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-08-31_add_columna_estado_tabla_fuentehidriva.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-09-01_cambio_columnas_historialseguimiento.sql
+        relativeToChangelogFile: false
+    - include :
+        file: classpath:/db/changelog/sql/2017-09-20_cambio_tipo_variable_EntregableContrato.sql
+        relativeToChangelogFile: false
+        
+        
+        
+        
